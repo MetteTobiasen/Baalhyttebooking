@@ -58,8 +58,10 @@ namespace Baalhyttebooking
         {
             foreach(Reservation res in _reservationer.Values) 
             {
-                if(res._tidspunkt == reservation._tidspunkt)
-                return false;
+                if (res._tidspunkt == reservation._tidspunkt)
+                {
+                    return false;
+                }
             }
             return true;
         }

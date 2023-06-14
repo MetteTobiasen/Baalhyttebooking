@@ -56,7 +56,7 @@
             int antalReservationer = reservationer.AntalReservationer(boernegruppe2);
             Console.WriteLine($"Antal reservationer for børnegruppe 2:\n{antalReservationer}");
 
-            //
+
 
         }
     }
